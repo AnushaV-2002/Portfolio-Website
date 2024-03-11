@@ -1,0 +1,47 @@
+.projects_container{
+    max-width:100%;
+    background-color: white;
+    padding:1em;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:1em;
+}
+
+.projects_heading{
+    text-align: center;
+}
+
+.projects_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ gap:1em;
+   justify-items: center;
+}
+
+.button_section{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+@media all and (max-width: 1000px){
+    .projects_cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     
+    }
+}
+
+@media all and (max-width: 700px){
+    .projects_container{
+      
+        padding:0.5em;
+        
+    }
+    .projects_cards{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+}

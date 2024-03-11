@@ -1,0 +1,104 @@
+.about_me_container{
+    background-color: #FAF9F6;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:0.5em;
+    padding: 1em;
+}
+
+.about_me_heading{
+    text-align: center;
+    color: #333;
+}
+.about_me_content{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.about_img{
+    width:80%;
+    border-radius: 2px;
+    box-shadow: 10px 10px 10px #999;
+	height:18.75em;
+}
+
+.about_me_description{
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+.about_me{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.resume_btn {
+    background: #333; 
+    border: 1px solid #333; 
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;/* Dark Gray border */
+    color: #ffffff; /* White text */
+    cursor: pointer;
+    /* font-weight: 400; Adjust font weight */
+    padding: 12px 24px; /* Adjust padding */
+    text-align: center;
+    text-transform: uppercase; /* Uppercase text */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  .resume_btn:hover {
+    background-color: #ffffff; /* White on hover */
+    color: #303030; /* Dark Gray text on hover */
+  }
+  
+  .resume_btn:active {
+    opacity: 0.8; /* Reduced opacity on click */
+  }
+
+  @media all and (max-width:1000px){
+    
+    .about_me_content{
+        padding: 0;
+        display: grid;
+       
+    }
+    .about_img{
+      width:80%;
+      height:12.5em;
+      }
+
+      .resume_btn {
+        padding: 10px 20px; 
+    }
+  }
+  @media all and (max-width:700px){
+    .about_me_content{
+        padding: 0.5em;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        gap:1em;
+    }
+    .about_me{
+        font-size: 13px;
+        text-align: justify;
+    }
+    .about_img{
+      width:70%;
+      height:15.6em;
+      }
+      .resume_btn {
+        padding: 8px 16px; 
+    }
+  }
+
+  @media all and (max-width:500px){
+    .about_img{
+        width:80%;
+        height:9.3em;
+    }
+  }
