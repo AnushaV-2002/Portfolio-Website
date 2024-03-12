@@ -32,7 +32,7 @@ const onSubmit=async function(data){
    const response= await axios.post('https://promanagehub.onrender.com/api/query',data,config)
    if(response.status===200){
     reset()
-    toast.success('We have recieved your query, we will get back to you soon...');
+    toast.success('I have recieved your message, I will get back to you soon...');
    }
   } catch (error) {
    // Handle network errors, request cancellation, etc.
