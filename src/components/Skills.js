@@ -45,7 +45,7 @@ function Skills(){
                     <p className="skill_label">Node.js</p>
                  </div>
                  <div className="express">
-                    <img className="imgHover" src={Express} style={{width: "170px", height:"100px"}}/>
+                    <img className="imgHover" src={Express} style={{width: "155px", height:"90px"}}/>
                     <p className="skill_label">Express.js</p>
                  </div>
               </div>

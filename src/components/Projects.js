@@ -31,7 +31,7 @@ function Projects(){
       "Project_Description": "Dynamic Portfolio Website Showcasing My Skills, Projects, and Achievements in the Realm of Technology. Explore My Work, Experience, and Accomplishments to Get a Glimpse of My Expertise and Passion for Innovation.",
       "Project_Github": "https://github.com/AnushaV-2002/Portfolio_Website",
       "Project_Blog": null,
-      "Project_Demo": "https://anusha_viswanathan.vercel.app/",
+      "Project_Demo": "https://anushaviswanathan.vercel.app/",
       "Project_Video_Demo": null
     },
     {
@@ -50,7 +50,7 @@ function Projects(){
       "Project_Github": "https://github.com/AnushaV-2002/Connecting_The_Dots",
       "Project_Blog": null,
       "Project_Demo": null,
-      "Project_Video_Demo": "https://drive/connecting.com"
+      "Project_Video_Demo": "https://drive.google.com/file/d/1G2RGoW_zoQ3BNA32m8lZCbcxlOFo92cO/view?usp=sharing"
     },
     {
       "Project_Thumbnail" : HackOHolics,
@@ -66,6 +66,7 @@ function Projects(){
       "Project_Title" : "Copy-To-Clipboard",
       "Project_Description": "I developed a 'Copy to Clipboard' feature using HTML, CSS, and JavaScript. This implementation enables users to easily copy text with just one click. The interface is intuitive and seamlessly integrates into web applications or websites, enhancing user experience and functionality.",
       "Project_Github": "https://github.com/AnushaV-2002/Copy-To-Clipboard",
+      "Project_Blog": null,
       "Project_Demo": "https://copy-to-clipboard-js.netlify.app/",
       "Project_Video_Demo": null
     },
@@ -74,6 +75,7 @@ function Projects(){
       "Project_Title" : "Digital Clock",
       "Project_Description": "I created a sleek digital clock with HTML, CSS, and JavaScript. Its clean design elegantly displays the current time, perfect for web pages or standalone use.",
       "Project_Github": "https://github.com/AnushaV-2002/Digital-Clock",
+      "Project_Blog": null,
       "Project_Demo": "https://digital-clock-js-project1.netlify.app/",
       "Project_Video_Demo": null
     },
@@ -82,6 +84,7 @@ function Projects(){
       "Project_Title" : "Simple Calculator",
       "Project_Description": "I developed a user-friendly basic calculator using HTML, CSS, and JavaScript. It supports addition, subtraction, multiplication, and division, offering convenient functionality for quick calculations on web pages or as a standalone application.",
       "Project_Github": "https://github.com/AnushaV-2002/Simple-Calculator",
+      "Project_Blog": null,
       "Project_Demo": "https://calculator-js-30days-challenge.netlify.app/",
       "Project_Video_Demo": null
     }
@@ -107,7 +110,7 @@ function Projects(){
             </Card.Body>
             <div className="button_section">
                 {project.Project_Github ? (
-                  <Button style={{backgroundColor:"#faf9f6", color: "black", border:"none"}} href={projects.Project_Github} target="_blank">GitHub Link</Button>
+                  <Button style={{backgroundColor:"#faf9f6", color: "black", border:"none"}} href={project.Project_Github} target="_blank">GitHub Link</Button>
                 ) : (
                   <Button style={{backgroundColor:"#faf9f6", color: "black", border:"none"}} href={project.Project_Blog} target="_blank">Blog Link</Button>
                 )}

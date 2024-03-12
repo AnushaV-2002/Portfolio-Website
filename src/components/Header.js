@@ -15,9 +15,9 @@ function Header() {
   });
 
   const clickable_btns = {
-    github: `https://github.com/AnushaV@2002`,
+    github: `https://github.com/AnushaV-2002`,
     linkedIn: `https://www.linkedin.com/in/anushaviswanathan/`,
-    resume: `https://drive.google.com/file/d/1PwgJMl57ktdRf2IMdH38a_XGB_K6u83T/view?usp=sharing`,
+    resume: `https://drive.google.com/file/d/1az4xaVanSXgD8VlMVPtVCKnAETkkCuYY/view?usp=sharing`,
   };
 
   return (
