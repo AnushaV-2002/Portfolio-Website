@@ -52,7 +52,7 @@ const onSubmit=async function(data){
             <div className="buttons_wrapper">
                     <button className="clickable_btn">
                         <a
-                            href="https://linkedIn.com/anushaviswanathan"
+                            href="https://www.linkedin.com/in/anushaviswanathan/"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: "#333333" }}
