@@ -6,7 +6,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 function Header() {
   const [typeEffect] = useTypewriter({
-    words: ["Full Stack Developer", "Volunteer", "Mentor", "Blogger"],
+    words: ["Full Stack Developer", "Public Speaker", "Volunteer", "Mentor", "Blogger"],
     loop: {},
     cursor: true,
     cursorSpeed: 400,
