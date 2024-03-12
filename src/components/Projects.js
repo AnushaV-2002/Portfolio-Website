@@ -29,7 +29,7 @@ function Projects(){
       "Project_Thumbnail" : Portfolio,
       "Project_Title" : "Portfolio Website",
       "Project_Description": "Dynamic Portfolio Website Showcasing My Skills, Projects, and Achievements in the Realm of Technology. Explore My Work, Experience, and Accomplishments to Get a Glimpse of My Expertise and Passion for Innovation.",
-      "Project_Github": "https://github.com/AnushaV-2002/Portfolio_Website",
+      "Project_Github": "https://github.com/AnushaV-2002/Portfolio-Website",
       "Project_Blog": null,
       "Project_Demo": "https://anushaviswanathan.vercel.app/",
       "Project_Video_Demo": null
