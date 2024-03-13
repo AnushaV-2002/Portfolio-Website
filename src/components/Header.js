@@ -17,7 +17,7 @@ function Header() {
   const clickable_btns = {
     github: `https://github.com/AnushaV-2002`,
     linkedIn: `https://www.linkedin.com/in/anushaviswanathan/`,
-    resume: `https://drive.google.com/file/d/1az4xaVanSXgD8VlMVPtVCKnAETkkCuYY/view?usp=sharing`,
+    resume: `https://drive.google.com/file/d/1N8YNlThDNqIldnak1Y8GKSKY1hxZncsJ/view?usp=sharing`,
   };
 
   return (

@@ -14,7 +14,7 @@
 .skills_layout{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    /* align-items: center; */
     justify-items: center;
     gap:2em;
 }
@@ -33,6 +33,18 @@
 .backend_skills_container{
     background-color: #EDEADE;
     width: 70%;
+    padding:0.5em;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:0.5em;
+    align-items: center;
+    justify-items: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.database_skills_container, .version_skills_container{
+    background-color: #EDEADE;
+    width: 70%;
     padding:1em;
     display:grid;
     grid-template-columns: 1fr;
@@ -41,6 +53,7 @@
     justify-items: center;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
+
 
 .skill_label{
     text-align: center;
@@ -54,11 +67,12 @@
     gap:2em;
 }
 
-.backend_lang{
+.backend_lang, .version_control{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
+    gap:1em;
 }
 
 
@@ -85,7 +99,7 @@ img:hover{
         justify-items: center;
         gap:2em;
     }
-    .frontend_skills_container, .backend_skills_container{
+    .frontend_skills_container, .backend_skills_container, .backend_skills_container{
         width:90%;
         
     }
@@ -95,7 +109,7 @@ img:hover{
 }
 
 @media all and (min-width: 700px) and (max-width: 1000px) {
-    .frontend_skills_container, .backend_skills_container {
+    .frontend_skills_container, .backend_skills_container{
         width: 90%;
         padding: 1em;
     }
