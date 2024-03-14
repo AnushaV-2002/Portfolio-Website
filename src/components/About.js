@@ -4,7 +4,7 @@ import Image from "../images/About_Headshot.jpg"
 
 function About(){
 
-  const resume_btn =  `https://drive.google.com/file/d/1N8YNlThDNqIldnak1Y8GKSKY1hxZncsJ/view?usp=sharing`;
+  const resume_btn =  `https://drive.google.com/file/d/1pjlaElyz_yscXBkgI1vsZVeQLpHzkyTo/view?usp=sharing`;
  
 
     return(
